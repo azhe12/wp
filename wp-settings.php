@@ -20,6 +20,7 @@ define( 'WPINC', 'wp-includes' );
 // Include files required for initialization.
 require( ABSPATH . WPINC . '/load.php' );
 require( ABSPATH . WPINC . '/default-constants.php' );
+require(ABSPATH . WPINC . '/debug.php');
 
 /*
  * These can't be directly globalized in version.php. When updating,

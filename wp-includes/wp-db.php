@@ -1563,6 +1563,7 @@ class wpdb {
 
 		// Keep track of the last query for debug..
 		$this->last_query = $query;
+        WpLog::trace("executed sql:[$query]");
 
 		$this->_do_query( $query );
 
